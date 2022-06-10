@@ -1,0 +1,74 @@
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.exe
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.deps.json
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.runtimeconfig.json
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.runtimeconfig.dev.json
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.dll
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.pdb
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.Views.dll
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.Views.pdb
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.AssemblyInfoInputs.cache
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.AssemblyInfo.cs
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.csproj.CoreCompileInputs.cache
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.RazorAssemblyInfo.cache
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.RazorAssemblyInfo.cs
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.TagHelpers.input.cache
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.TagHelpers.output.cache
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.RazorCoreGenerate.cache
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.RazorTargetAssemblyInfo.cache
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.RazorTargetAssemblyInfo.cs
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.Views.pdb
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\staticwebassets\FileOperations.StaticWebAssets.Manifest.cache
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\staticwebassets\FileOperations.StaticWebAssets.xml
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.dll
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.pdb
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.genruntimeconfig.cache
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.csproj.CopyComplete
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\scopedcss\bundle\FileOperations.styles.css
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.csprojAssemblyReference.cache
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Dosyalar.cshtml.g.cs
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Hata.cshtml.g.cs
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Basarili.cshtml.g.cs
+C:\Users\Metincem\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Silindi.cshtml.g.cs
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.StaticWebAssets.xml
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.exe
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.deps.json
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.runtimeconfig.json
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.runtimeconfig.dev.json
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.dll
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.pdb
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.Views.dll
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\bin\Debug\netcoreapp3.1\FileOperations.Views.pdb
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.csproj.AssemblyReference.cache
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.AssemblyInfoInputs.cache
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.AssemblyInfo.cs
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.csproj.CoreCompileInputs.cache
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.RazorAssemblyInfo.cache
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.RazorAssemblyInfo.cs
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\staticwebassets\FileOperations.StaticWebAssets.Manifest.cache
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.TagHelpers.input.cache
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.TagHelpers.output.cache
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.RazorCoreGenerate.cache
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Basarili.cshtml.g.cs
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Dosyalar.cshtml.g.cs
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Hata.cshtml.g.cs
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Silindi.cshtml.g.cs
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.RazorTargetAssemblyInfo.cache
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.RazorTargetAssemblyInfo.cs
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.Views.pdb
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.dll
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.pdb
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.genruntimeconfig.cache
+C:\Users\kara\Desktop\YEDEK\Y3\Bilişim Sistemleri Mühendisliği\2020-2021 Güz\Yazılım Geliştirme Laboratuvarı-I\Final Projesi\Teslim\FileOperations\FileOperations\obj\Debug\netcoreapp3.1\FileOperations.csproj.CopyComplete
