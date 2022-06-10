@@ -1,0 +1,60 @@
+﻿@model IndexViewModel
+
+<table cellspacing="0" cellpadding="0">
+    <tr>
+        <th>Göster</th>
+        <th>Başlat</th>
+        <th>Ad</th>
+        @if (!string.IsNullOrEmpty(Model.parameters.FileType))
+        {
+            <th>Dosya Tipi</th>
+        }
+        @if (Model.parameters.Size > 0)
+        {
+            <th>Boyutu</th>
+        }
+        @if (!string.IsNullOrEmpty(Model.parameters.User))
+        {
+            <th>Kullanıcı</th>
+        }
+        @if (!string.IsNullOrEmpty(Model.parameters.Permission))
+        {
+            <th>İzinler</th>
+        }
+        @if (DateTime.Compare(Model.parameters.ModifiedDate, new DateTime(2000, 1, 1)) > 0)
+        {
+            <th>Değiştirme Tarihi</th>
+        }
+
+    </tr>
+
+    @foreach (FileFolderModel item in Model.fileFolderModel)
+    {
+        <tr>
+            <td><i class="icofont-ui-folder icofont-2x startDirectory"></i><input type="text" hidden value="@item.StartLink" /></td>
+            <td><i class="icofont-file-alt icofont-2x startFile"></i><input type="text" hidden value="@item.StartLink"/></td>
+            <td>@item.Name</td>
+            @if (!string.IsNullOrEmpty(Model.parameters.FileType))
+            {
+                <td>@item.Type</td>
+            }
+            @if (Model.parameters.Size > 0)
+            {
+                <td>@item.Size byte</td>
+            }
+            @if (!string.IsNullOrEmpty(Model.parameters.User))
+            {
+                <td>@Model.parameters.User</td>
+            }
+            @if (!string.IsNullOrEmpty(Model.parameters.Permission))
+            {
+                <td>@item.Permissions</td>
+            }
+            @if (DateTime.Compare(Model.parameters.ModifiedDate, new DateTime(2000, 1, 1)) > 0)
+            {
+                <td>@item.DateModified.ToShortDateString()</td>
+            }
+
+        </tr>
+    }
+</table>

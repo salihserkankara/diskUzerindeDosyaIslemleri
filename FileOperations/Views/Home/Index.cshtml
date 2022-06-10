@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazılım Geliştirme Lab</title>
+    <link rel="stylesheet" href="~/css/styleFile.css">
+    <link rel="stylesheet" href="/lib/icofont/icofont.min.css">
+</head>
+<body>
+    <header>
+        <span>Yazılım Geliştirme Laboratuvarı-I</span>
+    </header>
+    <div class="mode-select">
+        <input type="text" id="folderInp" value="C:\Users\" hidden />
+        <div>
+            <button id="mode-change">SQL İle Dosya İşlemleri</button>
+            <div id="folder-div">
+                &nbsp;&nbsp;Aranacak Klasör: C:\Users\Metincem\Desktop\IOT (Değiştirmek İçin Tıklayınız)
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="title-bar">
+            <span id="mode-tiitle">Dosya Arama Sistemi</span>
+        </div>
+        <div class="search">
+            <input type="text" name="sqlText" id="sqlText" placeholder="Aranacak dosya adını giriniz...">
+            <button id="executeBtn"><i class="icofont-paper-plane icofont-2x"></i></button>
+        </div>
+        <div class="animation-container" style="display:none;">
+            <div class="loading-animation">
+                <div class="spinner-box">
+                    <div class="configure-border-1">
+                        <div class="configure-core"></div>
+                    </div>
+                    <div class="configure-border-2">
+                        <div class="configure-core"></div>
+                    </div>
+                </div>
+            </div>
+            <span>İşlem Devam Ediyor...</span>
+            <div class="folderInfoContainer" id="infoCont"></div>
+            <div class="found-files" id="found"></div>
+        </div>
+        <div class="results">
+            <div style="display:flex;align-items:center;justify-content:center;text-align:center; height:300px;color:#192a56;">
+                <h3>Arama Metodunuz Değiştirmek İçin Mor Butona Basın</h3>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a><i class="icofont-user"></i> Salih Serkan Kara <i class="icofont-swoosh-left"></i> || <i class="icofont-swoosh-right"></i> Metin Cem Bayraktar <i class="icofont-user"></i></a>
+    </footer>
+</body>
+</html>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+
+
+
+    $("body").on("click", "#executeBtn", function () {
+        $(".results").hide("fast");
+        $(".animation-container").show("fast");
+        $("#found").html("");
+        $(".folderInfoContainer").html("");
+        sText = $("#sqlText").val();
+        $("#executeBtn").attr("disabled", true);
+        $("#executeBtn").css("cursor", "not-allowed");
+        $("#executeBtn").css("background", "gray");
+        var pathFolder = $("#folderInp").val();
+        if ($("#folder-div").css("display").indexOf("no") != -1) {
+            pathFolder = "-";
+        }
+        
+        $.ajax({
+            type: "GET",
+            url: "Home/Execute",
+            data: { txt: sText, folderPath: pathFolder },
+            dataType: "html",
+            success: function (data) {
+                $(".results").html(data);
+                $(".results").show("fast");
+                $(".animation-container").hide("fast");
+                $("#executeBtn").attr("disabled", false);
+                $("#executeBtn").css("cursor", "pointer");
+                $("#executeBtn").css("background", "#27ae60");
+            }
+        });
+    });
+    $("body").on("click", ".startFile", function () {
+        var parent = $(this).parent();
+        var linki = $(parent).children("input").val();
+
+        $.ajax({
+            type: "GET",
+            url: "Home/StartFile",
+            data: { startLink: linki },
+            dataType: "json",
+            success: function (data) {
+                console.log(data.sonuc);
+            }
+        });
+    });
+    $("body").on("click", ".startDirectory", function () {
+        var parent = $(this).parent();
+        var linki = $(parent).children("input").val();
+
+        $.ajax({
+            type: "GET",
+            url: "Home/StartDirectory",
+            data: { startLink: linki },
+            dataType: "json",
+            success: function (data) {
+                console.log(data.sonuc);
+            }
+        });
+    });
+
+    $(window).on('focus', function () {
+        $.ajax({
+            type: "GET",
+            url: "Home/UpdateFolder",
+            dataType: "json",
+            success: function (data) {
+                $("#folder-div").html("&nbsp;&nbsp;Aranacak Klasör: " + data.path);
+                $("#folderInp").val(data.path);
+            }
+        });
+    });
+
+    $("body").on("click", "#mode-change", function () {
+        if ($(this).text().indexOf("SQL") != -1) {
+            $("#mode-tiitle").text("SQL İle Dosya İşlemleri");
+            $(this).text("Dosya Arama Sistemi");
+            $("#folder-div").hide("fast");
+            $("#sqlText").attr("placeholder", "SQL cümlesi giriniz...");
+        }
+        else {
+            $("#mode-tiitle").text("Dosya Arama Sistemi");
+            $(this).text("SQL İle Dosya İşlemleri");
+            $("#folder-div").show("fast");
+            $("#sqlText").attr("placeholder", "Aranacak dosya adını giriniz...");
+        }
+    });
+
+    $("body").on("click", "#folder-div", function () {
+        $.ajax({
+            type: "GET",
+            url: "Home/ChangeFolder",
+            dataType: "json",
+            success: function (data) {
+                $("#folder-div").html("&nbsp;&nbsp;Aranacak Klasör Değiştiriliyor... ");
+            }
+        });
+    });
+
+    $(function () {
+        const infos = document.getElementById('infoCont');
+        const found = document.getElementById('found');
+        var connection = new signalR.HubConnectionBuilder().configureLogging(signalR.LogLevel.Critical).withUrl("/RealTimeInfo").build();
+
+        connection.start().then(function () {
+
+        }).catch((err) => console.log(err));
+
+        connection.on("dinle", (scp) => {
+            $(".folderInfoContainer").append("<a><br />Aranıyor : " + scp + "</a>")
+            infos.scrollTop = infos.scrollHeight;
+
+        });
+
+        connection.on("buldu", (fnd) => {
+            $("#found").append("<a><br />Bulundu : " + fnd + "</a>")
+            found.scrollTop = infos.scrollHeight;
+
+        });
+
+        $.ajax({
+            type: "GET",
+            url: "Home/UpdateFolder",
+            dataType: "json",
+            success: function (data) {
+                $("#folder-div").html("&nbsp;&nbsp;Aranacak Klasör: " + data.path);
+                $("#folderInp").val(data.path);
+            }
+        });
+    });
+</script>
+
